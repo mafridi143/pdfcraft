@@ -1,6 +1,6 @@
 {
   "common": {
-    "brand": "PDFCraft",
+    "brand": "ZemPDF",
     "tagline": "專業PDF工具 - 免費且私密",
     "navigation": {
       "home": "首頁",
@@ -45,8 +45,8 @@
       "loading": "載入中..."
     },
     "footer": {
-      "footer": "© 2025 PDFCraft. 保留所有權利。",
-      "copyright": "© {year} PDFCraft. 保留所有權利。",
+      "footer": "© 2025 ZemPDF. 保留所有權利。",
+      "copyright": "© {year} ZemPDF. 保留所有權利。",
       "privacyBadge": "100% 私密 - 檔案永不離開您的裝置",
       "madeWith": "Made with <Heart /> and <Nextjs />"
     },
@@ -91,7 +91,7 @@
       "finish": "完成",
       "skip": "跳過",
       "stepOf": "/",
-      "welcomeTitle": "歡迎使用PDFCraft！",
+      "welcomeTitle": "歡迎使用ZemPDF！",
       "welcomeMessage": "想要快速瞭解如何使用我們的PDF工具嗎？只需一分鐘。",
       "helpButton": "幫助導覽"
     },
@@ -156,16 +156,16 @@
     "sections": {
       "general": {
         "whatIs": {
-          "question": "PDFCraft 是什麼？",
-          "answer": "PDFCraft 是一個免費、注重隱私的 PDF 工具包，完全在您的瀏覽器中執行。它提供 67+ 個專業工具，用於編輯、轉換、合併、分割和加密 PDF 檔案，而無需將其上傳到任何伺服器。"
+          "question": "ZemPDF 是什麼？",
+          "answer": "ZemPDF 是一個免費、注重隱私的 PDF 工具包，完全在您的瀏覽器中執行。它提供 67+ 個專業工具，用於編輯、轉換、合併、分割和加密 PDF 檔案，而無需將其上傳到任何伺服器。"
         },
         "isFree": {
-          "question": "PDFCraft 真的免費嗎？",
-          "answer": "是的，PDFCraft 完全免費使用。沒有隱藏費用，沒有高階會員，也無需註冊。所有功能對每個人開放。"
+          "question": "ZemPDF 真的免費嗎？",
+          "answer": "是的，ZemPDF 完全免費使用。沒有隱藏費用，沒有高階會員，也無需註冊。所有功能對每個人開放。"
         },
         "account": {
           "question": "我需要建立賬戶嗎？",
-          "answer": "不需要，您無需建立賬戶或註冊即可使用 PDFCraft。只需訪問網站即可立即開始使用任何工具。"
+          "answer": "不需要，您無需建立賬戶或註冊即可使用 ZemPDF。只需訪問網站即可立即開始使用任何工具。"
         }
       },
       "privacy": {
@@ -174,8 +174,8 @@
           "answer": "不會，您的檔案從未上傳到任何伺服器。所有 PDF 處理都使用 JavaScript 和 WebAssembly 在瀏覽器本地進行。您的檔案從未離開您的裝置。"
         },
         "safe": {
-          "question": "使用 PDFCraft 處理敏感文件安全嗎？",
-          "answer": "是的，PDFCraft 的設計以隱私為重。由於所有處理都在瀏覽器本地進行，您的敏感文件保留在您的裝置上，從未透過網際網路傳輸。"
+          "question": "使用 ZemPDF 處理敏感文件安全嗎？",
+          "answer": "是的，ZemPDF 的設計以隱私為重。由於所有處理都在瀏覽器本地進行，您的敏感文件保留在您的裝置上，從未透過網際網路傳輸。"
         },
         "storage": {
           "question": "處理後我的檔案會怎樣？",
@@ -185,7 +185,7 @@
       "features": {
         "operations": {
           "question": "我可以執行哪些 PDF 操作？",
-          "answer": "PDFCraft 提供 67+ 個工具，包括：合併、分割、壓縮、轉換（轉為/來自影象、文字、JSON）、編輯、註釋、簽名、新增水印、加密/解密、OCR 等等。"
+          "answer": "ZemPDF 提供 67+ 個工具，包括：合併、分割、壓縮、轉換（轉為/來自影象、文字、JSON）、編輯、註釋、簽名、新增水印、加密/解密、OCR 等等。"
         },
         "merge": {
           "question": "我可以合併多個 PDF 檔案嗎？",
@@ -193,17 +193,17 @@
         },
         "images": {
           "question": "我可以將影象轉換為 PDF 嗎？",
-          "answer": "是的，PDFCraft 支援將各種影象格式（JPG、PNG、WebP、BMP、TIFF、SVG、HEIC）轉換為 PDF。您可以一次轉換單個或多個影象。"
+          "answer": "是的，ZemPDF 支援將各種影象格式（JPG、PNG、WebP、BMP、TIFF、SVG、HEIC）轉換為 PDF。您可以一次轉換單個或多個影象。"
         },
         "edit": {
           "question": "我可以編輯 PDF 中的文字嗎？",
-          "answer": "PDFCraft 提供註釋和編輯工具，包括高亮、新增文字、形狀、影象和簽名。如需全文編輯，PDF 編輯器工具提供全面的註釋功能。"
+          "answer": "ZemPDF 提供註釋和編輯工具，包括高亮、新增文字、形狀、影象和簽名。如需全文編輯，PDF 編輯器工具提供全面的註釋功能。"
         }
       },
       "technical": {
         "browsers": {
           "question": "支援哪些瀏覽器？",
-          "answer": "PDFCraft 適用於所有現代瀏覽器，包括 Chrome、Firefox、Safari 和 Edge。我們建議使用最新版本的瀏覽器以獲得最佳體驗。"
+          "answer": "ZemPDF 適用於所有現代瀏覽器，包括 Chrome、Firefox、Safari 和 Edge。我們建議使用最新版本的瀏覽器以獲得最佳體驗。"
         },
         "sizeLimit": {
           "question": "有檔案大小限制嗎？",
@@ -214,14 +214,14 @@
           "answer": "由於所有處理都在瀏覽器中進行，效能取決於您裝置的能力。大檔案需要更多的記憶體和處理能力。為了獲得最佳結果，請關閉其他瀏覽器標籤頁和應用程式。"
         },
         "offline": {
-          "question": "PDFCraft 可以離線工作嗎？",
-          "answer": "目前，PDFCraft 需要網際網路連線才能載入應用程式。但是，一旦載入，PDF 處理本身在本地進行，不需要連線。"
+          "question": "ZemPDF 可以離線工作嗎？",
+          "answer": "目前，ZemPDF 需要網際網路連線才能載入應用程式。但是，一旦載入，PDF 處理本身在本地進行，不需要連線。"
         }
       },
       "languages": {
         "supported": {
           "question": "支援哪些語言？",
-          "answer": "PDFCraft 提供 9 種語言版本：英語、日語、韓語、西班牙語、法語、德語、中文、葡萄牙語和阿拉伯語（支援從右到左）。"
+          "answer": "ZemPDF 提供 9 種語言版本：英語、日語、韓語、西班牙語、法語、德語、中文、葡萄牙語和阿拉伯語（支援從右到左）。"
         },
         "change": {
           "question": "如何更改語言？",
@@ -252,7 +252,7 @@
       },
       "fast": {
         "title": "快速高效",
-        "description": "由現代 Web 技術驅動，PDFCraft 提供閃電般的 PDF 處理速度，無需上傳或下載。"
+        "description": "由現代 Web 技術驅動，ZemPDF 提供閃電般的 PDF 處理速度，無需上傳或下載。"
       },
       "accessible": {
         "title": "隨處可用",
@@ -260,7 +260,7 @@
       },
       "free": {
         "title": "永久免費",
-        "description": "PDFCraft 完全免費使用，沒有隱藏費用，無需註冊，也不限制使用次數。"
+        "description": "ZemPDF 完全免費使用，沒有隱藏費用，無需註冊，也不限制使用次數。"
       },
       "openSource": {
         "title": "開源透明",
@@ -298,7 +298,7 @@
       "email": {
         "title": "電子郵件",
         "description": "傳送電子郵件給我們，我們將在 24-48 小時內回覆。",
-        "action": "contact@pdfcraft.app"
+        "action": "contact@ZemPDF.app"
       },
       "github": {
         "title": "GitHub",
@@ -308,7 +308,7 @@
       "twitter": {
         "title": "推特",
         "description": "關注我們要獲取更新和公告。",
-        "action": "@pdfcraft"
+        "action": "@ZemPDF"
       }
     },
     "form": {
