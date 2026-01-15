@@ -180,7 +180,7 @@ export const Header: React.FC<HeaderProps> = ({ locale, showSearch = true }) => 
             >
               <div className="relative flex h-9 w-9 items-center justify-center rounded-xl overflow-hidden shadow-lg shadow-primary/25 transition-transform group-hover:scale-105">
                 <img
-                  src="/images/zempdf-logo.svg"
+                  src="/images/zempdf.png"
                   alt="ZemPDF Logo"
                   className="h-full w-full object-cover"
                 />
