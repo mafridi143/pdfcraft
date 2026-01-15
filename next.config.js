@@ -4,17 +4,11 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 /** @type {import('next').NextConfig} */
 
-// GitHub Pages deployment configuration
-// basePath and assetPrefix are only applied during production build
-// Remove these when using custom domain (zempdf.com)
-const isProd = process.env.NODE_ENV === 'production';
-
 const nextConfig = {
-  // Only use basePath for production (GitHub Pages)
-  ...(isProd && {
-    basePath: '/pdfcraft',
-    assetPrefix: '/pdfcraft',
-  }),
+  // Custom domain configured (zempdf.com) - no basePath needed
+  // To use GitHub Pages subdirectory (username.github.io/repo), uncomment:
+  // basePath: '/pdfcraft',
+  // assetPrefix: '/pdfcraft',
 
   // Enable static export for deployment flexibility
   output: 'export',
