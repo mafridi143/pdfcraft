@@ -2,6 +2,7 @@
 
 import React, { useState, useCallback, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { Search, Menu, X, Command, Github } from 'lucide-react';
@@ -179,10 +180,13 @@ export const Header: React.FC<HeaderProps> = ({ locale, showSearch = true }) => 
               aria-label={`${t('brand')} - ${t('navigation.home')}`}
             >
               <div className="relative flex h-9 w-9 items-center justify-center rounded-xl overflow-hidden shadow-lg shadow-primary/25 transition-transform group-hover:scale-105">
-                <img
+                <Image
                   src="/images/zempdf.png"
                   alt="ZemPDF Logo"
+                  width={36}
+                  height={36}
                   className="h-full w-full object-cover"
+                  priority
                 />
               </div>
               <span className="text-xl tracking-tight" data-testid="brand-name">
