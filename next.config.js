@@ -4,6 +4,11 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // GitHub Pages deployment configuration
+  // Remove basePath and assetPrefix when using custom domain (zempdf.com)
+  basePath: '/pdfcraft',
+  assetPrefix: '/pdfcraft',
+
   // Enable static export for deployment flexibility
   output: 'export',
 
