@@ -102,7 +102,7 @@ export class DJVUToPDFProcessor extends BasePDFProcessor {
 
             // Parse the DJVU document
             const djvuDocument = new DjVu.Document(arrayBuffer);
-            const pageCount = djvuDocument.getPagesCount();
+            const pageCount = djvuDocument.getPagesQuantity();
 
             if (pageCount === 0) {
                 return this.createErrorOutput(
@@ -132,8 +132,8 @@ export class DJVUToPDFProcessor extends BasePDFProcessor {
                 this.updateProgress(progressPercent, `Rendering page ${i} of ${pageCount}...`);
 
                 try {
-                    // Get page and render to ImageData
-                    const page = djvuDocument.getPage(i);
+                    // Get page and render to ImageData (async in v0.5.4+)
+                    const page = await djvuDocument.getPage(i);
                     const imageData = page.getImageData();
 
                     if (!imageData) {
@@ -238,7 +238,8 @@ export class DJVUToPDFProcessor extends BasePDFProcessor {
 
             // Load script
             const script = document.createElement('script');
-            script.src = 'https://cdn.jsdelivr.net/npm/djvu.js@0.4.3/dist/djvu.js';
+            // Official DjVu.js library from djvu.js.org (v0.5.4)
+            script.src = 'https://djvu.js.org/assets/dist/djvu.js';
             script.async = true;
 
             script.onload = () => {
