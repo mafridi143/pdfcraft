@@ -64,3 +64,6 @@ ehthumbs.db
 bentopdf-main
 # Comparison/debug files
 comparisons.txt
+
+# Personal documentation (not for GitHub)
+.docs
