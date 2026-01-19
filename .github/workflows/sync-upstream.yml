@@ -1,0 +1,81 @@
+name: Sync with Upstream
+
+on:
+  # Run weekly on Sundays at 2 AM UTC
+  schedule:
+    - cron: '0 2 * * 0'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-upstream:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream remote
+        run: |
+          git remote add upstream https://github.com/PDFCraftTool/pdfcraft.git || true
+          git fetch upstream
+
+      - name: Merge upstream changes
+        id: merge
+        run: |
+          git merge upstream/main --no-edit || echo "MERGE_CONFLICT=true" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
+      - name: Check for merge conflicts
+        if: steps.merge.outputs.MERGE_CONFLICT == 'true'
+        run: |
+          echo "::error::Merge conflicts detected. Please resolve manually."
+          exit 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Apply customizations
+        run: |
+          chmod +x scripts/customize.sh
+          bash scripts/customize.sh
+
+      - name: Regenerate package-lock.json
+        run: |
+          rm -f package-lock.json
+          npm install
+
+      - name: Generate sitemap
+        run: node scripts/generate-sitemap.js
+
+      - name: Commit changes
+        run: |
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: sync with upstream and apply customizations [skip ci]"
+            git push origin main
+          fi
+
+      - name: Summary
+        run: |
+          echo "✅ Upstream sync completed successfully!"
+          echo "🎨 Customizations applied"
+          echo "🗺️  Sitemap generated"
+          echo "📦 Dependencies updated"

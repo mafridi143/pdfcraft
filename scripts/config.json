@@ -1,0 +1,32 @@
+{
+    "branding": {
+        "oldName": "PDFCraft",
+        "newName": "ZemPDF",
+        "oldUrl": "pdfcraft.com",
+        "newUrl": "zempdf.com",
+        "oldGithub": "PDFCraftTool/pdfcraft",
+        "newGithub": "mafridi143/pdfcraft"
+    },
+    "colors": {
+        "background": "210 40% 94%"
+    },
+    "sitemap": {
+        "siteUrl": "https://zempdf.com",
+        "locales": [
+            "en",
+            "zh",
+            "es",
+            "fr",
+            "de",
+            "ja",
+            "ko",
+            "pt"
+        ],
+        "changefreq": "weekly",
+        "priority": 0.8
+    },
+    "logos": {
+        "favicon": "public/images/zempdf-logo.svg",
+        "logo": "public/images/zempdf.png"
+    }
+}
