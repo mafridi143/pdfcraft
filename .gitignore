@@ -67,3 +67,6 @@ comparisons.txt
 
 # Personal documentation (not for GitHub)
 .docs
+
+# Temporary deployment files
+gh-pages-temp
