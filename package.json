@@ -11,8 +11,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
-    "sync": "pwsh scripts/sync-upstream.ps1",
-    "customize": "pwsh scripts/customize.ps1",
+    "sync": "node scripts/sync-upstream.js",
+    "customize": "node scripts/customize.js",
     "sitemap": "node scripts/generate-sitemap.js",
     "prebuild": "npm run sitemap",
     "deploy:local": "npm run build && npx serve out"
