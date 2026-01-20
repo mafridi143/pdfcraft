@@ -68,9 +68,9 @@ PDFCraft includes a powerful **visual workflow editor** that allows you to chain
 
 Navigate to `/workflow` or click on "Workflow Editor" in the navigation menu.
 
-## 🧰 Complete Tool List (80+ Tools)
+## 🧰 Complete Tool List (90+ Tools)
 
-### 📁 Organize & Manage (24 tools)
+### 📁 Organize & Manage (27 tools)
 | Tool | Description |
 |------|-------------|
 | **PDF Multi Tool** | All-in-one PDF editor for merge, split, organize, delete, rotate, and extract |
@@ -97,8 +97,10 @@ Navigate to `/workflow` or click on "Workflow Editor" in the navigation menu.
 | **Compare PDFs** | Compare two PDFs side-by-side with difference highlighting |
 | **Posterize PDF** | Split large pages into multiple printable sheets |
 | **Grid Combine** | Combine multiple PDFs into a grid layout with custom spacing |
+| **PDF Booklet** | Arrange pages for booklet printing (saddle stitch) |
+| **PDF Reader** | Read and view PDF documents in a clean interface |
 
-### ✏️ Edit & Annotate (16 tools)
+### ✏️ Edit & Annotate (19 tools)
 | Tool | Description |
 |------|-------------|
 | **Edit PDF** | Add text, images, annotations, highlights, and shapes |
@@ -117,8 +119,10 @@ Navigate to `/workflow` or click on "Workflow Editor" in the navigation menu.
 | **Form Filler** | Complete interactive PDF forms |
 | **Form Creator** | Add text fields, checkboxes, and dropdowns to create forms |
 | **Remove Blank Pages** | Auto-detect and remove empty pages |
+| **Deskew PDF** | Automatically straighten skewed scanned pages |
+| **OCG Manager** | Manage Optional Content Groups (layers) in PDFs |
 
-### 📤 Convert to PDF (18 tools)
+### 📤 Convert to PDF (22 tools)
 | Tool | Description |
 |------|-------------|
 | **Image to PDF** | Convert any image format to PDF |
@@ -139,8 +143,12 @@ Navigate to `/workflow` or click on "Workflow Editor" in the navigation menu.
 | **RTF to PDF** | Convert Rich Text Format files to PDF |
 | **EPUB to PDF** | Convert EPUB ebooks to PDF |
 | **MOBI to PDF** | Convert MOBI ebooks to PDF |
+| **Markdown to PDF** | Convert Markdown files to PDF with styling |
+| **Email to PDF** | Convert email files (EML/MSG) to PDF |
+| **CBZ to PDF** | Convert comic book archives to PDF |
+| **DjVu to PDF** | Convert DjVu documents to PDF |
 
-### 📥 Convert from PDF (11 tools)
+### 📥 Convert from PDF (13 tools)
 | Tool | Description |
 |------|-------------|
 | **PDF to JPG** | Extract pages as JPEG images |
@@ -154,8 +162,10 @@ Navigate to `/workflow` or click on "Workflow Editor" in the navigation menu.
 | **PDF to PowerPoint** | Convert PDF to editable slides |
 | **PDF to Excel** | Extract tables to spreadsheet format |
 | **Extract Images** | Extract all images embedded in a PDF file |
+| **PDF to PDF/A** | Convert PDF to archival PDF/A format |
+| **Extract Tables** | Extract tables from PDF as structured data |
 
-### ⚡ Optimize & Repair (6 tools)
+### ⚡ Optimize & Repair (8 tools)
 | Tool | Description |
 |------|-------------|
 | **Compress PDF** | Reduce file size while maintaining quality |
@@ -164,6 +174,8 @@ Navigate to `/workflow` or click on "Workflow Editor" in the navigation menu.
 | **Linearize PDF** | Optimize for fast web viewing |
 | **Repair PDF** | Fix corrupted or damaged PDF files |
 | **Remove Restrictions** | Remove editing/printing restrictions |
+| **Rasterize PDF** | Convert vector elements to images for compatibility |
+| **Font to Outline** | Convert text fonts to vector outlines |
 
 ### 🔒 Secure PDF (6 tools)
 | Tool | Description |

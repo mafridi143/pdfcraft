@@ -37,8 +37,7 @@ const nextConfig = {
     // Ignore the dynamic import of 'module' in gs-wasm
     config.plugins.push(
       new webpack.IgnorePlugin({
-        resourceRegExp: /^module$/,
-        contextRegExp: /@bentopdf/,
+        resourceRegExp: /^module$/
       })
     );
 

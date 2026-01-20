@@ -1,4 +1,39 @@
 {
+  "metadata": {
+    "home": {
+      "title": "PDFCraft - Professionelle PDF-Werkzeuge",
+      "description": "Kostenlos, privat und browserbasiert. PDF-Dateien online zusammenführen und bearbeiten, ohne sie auf Server hochzuladen."
+    },
+    "tools": {
+      "title": "Alle PDF-Werkzeuge",
+      "description": "Durchsuchen Sie 67+ professionelle PDF-Werkzeuge. PDF-Dateien kostenlos zusammenführen, teilen, komprimieren, konvertieren, bearbeiten und schützen."
+    },
+    "about": {
+      "title": "Über uns",
+      "description": "Erfahren Sie mehr über PDFCraft - Ihr kostenloses, privates und leistungsstarkes PDF-Toolkit. Alle Verarbeitung erfolgt in Ihrem Browser."
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Finden Sie Antworten auf häufige Fragen zu PDFCraft. Erfahren Sie, wie Sie unsere PDF-Werkzeuge effektiv nutzen können."
+    },
+    "privacy": {
+      "title": "Datenschutzrichtlinie",
+      "description": "PDFCraft Datenschutzrichtlinie. Ihre Dateien verlassen Ihr Gerät nie - alle Verarbeitung erfolgt lokal in Ihrem Browser."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Kontaktieren Sie das PDFCraft-Team. Wir freuen uns auf Ihre Nachricht."
+    },
+    "keywords": {
+      "pdfTools": "PDF-Werkzeuge",
+      "mergePdf": "PDF zusammenführen",
+      "splitPdf": "PDF teilen",
+      "compressPdf": "PDF komprimieren",
+      "convertPdf": "PDF konvertieren",
+      "freePdfTools": "kostenlose PDF-Werkzeuge",
+      "onlinePdfEditor": "Online-PDF-Editor"
+    }
+  },
   "common": {
     "brand": "ZemPDF",
     "tagline": "Professionelle PDF-Werkzeuge - Kostenlos & Privat",
@@ -592,20 +627,33 @@
       "successMessage": "PDF posterized successfully! Click the download button to save your file."
     },
     "pdfMultiTool": {
-      "uploadLabel": "Upload PDF File",
-      "uploadDescription": "Drag and drop a PDF file here, or click to browse.",
-      "organize": "Organize",
-      "delete": "Delete",
-      "rotate": "Rotate",
-      "duplicate": "Duplicate",
-      "addBlank": "Add Blank",
-      "organizeHint": "Drag and drop pages to reorder them.",
-      "deleteHint": "Click pages to mark them for deletion.",
-      "rotateHint": "Click rotation buttons on pages, or rotate all:",
-      "duplicateHint": "Click the duplicate button on pages to copy them.",
-      "reset": "Reset to Original",
-      "processButton": "Apply Changes",
-      "successMessage": "PDF processed successfully! Click the download button to save your file."
+      "uploadLabel": "PDF-Dateien hochladen",
+      "uploadDescription": "PDF-Dateien hierher ziehen oder klicken zum Durchsuchen. Mehrere Dateien können hochgeladen werden.",
+      "addMoreFiles": "Weitere PDF-Dateien hinzufügen",
+      "organize": "Organisieren",
+      "delete": "Löschen",
+      "rotate": "Drehen",
+      "duplicate": "Duplizieren",
+      "addBlank": "Leerseite hinzufügen",
+      "organizeHint": "Seiten per Drag & Drop neu anordnen.",
+      "deleteHint": "Klicken Sie auf Seiten, um sie zum Löschen zu markieren.",
+      "rotateHint": "Klicken Sie auf die Drehschaltflächen auf Seiten, oder drehen Sie alle:",
+      "duplicateHint": "Klicken Sie auf die Duplizieren-Schaltfläche, um Seiten zu kopieren.",
+      "reset": "Zurücksetzen",
+      "undo": "Rückgängig",
+      "redo": "Wiederholen",
+      "selectAll": "Alle auswählen",
+      "deselectAll": "Auswahl aufheben",
+      "rotateLeft": "Links drehen",
+      "rotateRight": "Rechts drehen",
+      "exportPDF": "PDF exportieren",
+      "downloadSelected": "Auswahl herunterladen",
+      "clearAll": "Alle löschen",
+      "addBlankPageTitle": "Leerseiten hinzufügen",
+      "numberOfPages": "Anzahl der Seiten",
+      "insertPosition": "Einfügeposition",
+      "processButton": "Änderungen übernehmen",
+      "successMessage": "PDF erfolgreich verarbeitet! Klicken Sie auf den Download-Button, um die Datei zu speichern."
     },
     "viewMetadata": {
       "uploadLabel": "Upload PDF File",

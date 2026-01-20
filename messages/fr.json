@@ -1,4 +1,39 @@
 {
+  "metadata": {
+    "home": {
+      "title": "PDFCraft - Outils PDF Professionnels",
+      "description": "Gratuit, privé et basé sur navigateur. Fusionnez et modifiez des fichiers PDF en ligne sans les télécharger sur des serveurs."
+    },
+    "tools": {
+      "title": "Tous les Outils PDF",
+      "description": "Parcourez plus de 67 outils PDF professionnels. Fusionnez, divisez, compressez, convertissez, modifiez et sécurisez vos fichiers PDF gratuitement."
+    },
+    "about": {
+      "title": "À Propos",
+      "description": "Découvrez PDFCraft - votre boîte à outils PDF gratuite, privée et puissante. Tout le traitement se fait dans votre navigateur."
+    },
+    "faq": {
+      "title": "Questions Fréquentes",
+      "description": "Trouvez des réponses aux questions courantes sur PDFCraft. Apprenez à utiliser efficacement nos outils PDF."
+    },
+    "privacy": {
+      "title": "Politique de Confidentialité",
+      "description": "Politique de confidentialité de PDFCraft. Vos fichiers ne quittent jamais votre appareil - tout le traitement se fait localement dans votre navigateur."
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "description": "Contactez l'équipe PDFCraft. Nous serions ravis de vous entendre."
+    },
+    "keywords": {
+      "pdfTools": "outils PDF",
+      "mergePdf": "fusionner PDF",
+      "splitPdf": "diviser PDF",
+      "compressPdf": "compresser PDF",
+      "convertPdf": "convertir PDF",
+      "freePdfTools": "outils PDF gratuits",
+      "onlinePdfEditor": "éditeur PDF en ligne"
+    }
+  },
   "common": {
     "brand": "ZemPDF",
     "tagline": "Outils PDF Professionnels - Gratuits et Privés",
@@ -592,20 +627,33 @@
       "successMessage": "PDF posterized successfully! Click the download button to save your file."
     },
     "pdfMultiTool": {
-      "uploadLabel": "Upload PDF File",
-      "uploadDescription": "Drag and drop a PDF file here, or click to browse.",
-      "organize": "Organize",
-      "delete": "Delete",
-      "rotate": "Rotate",
-      "duplicate": "Duplicate",
-      "addBlank": "Add Blank",
-      "organizeHint": "Drag and drop pages to reorder them.",
-      "deleteHint": "Click pages to mark them for deletion.",
-      "rotateHint": "Click rotation buttons on pages, or rotate all:",
-      "duplicateHint": "Click the duplicate button on pages to copy them.",
-      "reset": "Reset to Original",
-      "processButton": "Apply Changes",
-      "successMessage": "PDF processed successfully! Click the download button to save your file."
+      "uploadLabel": "Télécharger des fichiers PDF",
+      "uploadDescription": "Glissez-déposez des fichiers PDF ici, ou cliquez pour parcourir. Vous pouvez télécharger plusieurs fichiers.",
+      "addMoreFiles": "Ajouter d'autres fichiers PDF",
+      "organize": "Organiser",
+      "delete": "Supprimer",
+      "rotate": "Pivoter",
+      "duplicate": "Dupliquer",
+      "addBlank": "Ajouter page blanche",
+      "organizeHint": "Glissez-déposez les pages pour les réorganiser.",
+      "deleteHint": "Cliquez sur les pages pour les marquer à supprimer.",
+      "rotateHint": "Cliquez sur les boutons de rotation sur les pages, ou pivotez tout :",
+      "duplicateHint": "Cliquez sur le bouton dupliquer pour copier les pages.",
+      "reset": "Réinitialiser",
+      "undo": "Annuler",
+      "redo": "Rétablir",
+      "selectAll": "Tout sélectionner",
+      "deselectAll": "Désélectionner",
+      "rotateLeft": "Pivoter à gauche",
+      "rotateRight": "Pivoter à droite",
+      "exportPDF": "Exporter PDF",
+      "downloadSelected": "Télécharger la sélection",
+      "clearAll": "Tout effacer",
+      "addBlankPageTitle": "Ajouter des pages blanches",
+      "numberOfPages": "Nombre de pages",
+      "insertPosition": "Position d'insertion",
+      "processButton": "Appliquer les modifications",
+      "successMessage": "PDF traité avec succès ! Cliquez sur le bouton de téléchargement pour enregistrer votre fichier."
     },
     "viewMetadata": {
       "uploadLabel": "Upload PDF File",

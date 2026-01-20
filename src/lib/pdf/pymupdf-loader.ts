@@ -9,7 +9,6 @@ let loadingPromise: Promise<any> | null = null;
 
 /**
  * Load PyMuPDF using Pyodide directly
- * This avoids the ES module import issues with @bentopdf/pymupdf-wasm
  */
 export async function loadPyMuPDF(): Promise<any> {
   if (pymupdfInstance) {

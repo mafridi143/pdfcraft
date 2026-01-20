@@ -1,4 +1,39 @@
 {
+  "metadata": {
+    "home": {
+      "title": "PDFCraft - Professional PDF Tools",
+      "description": "Free, Private & Browser-Based. Merge, edit, and edit PDF files online without uploading to servers."
+    },
+    "tools": {
+      "title": "All PDF Tools",
+      "description": "Browse all 67+ professional PDF tools. Merge, split, compress, convert, edit, and secure your PDF files for free."
+    },
+    "about": {
+      "title": "About",
+      "description": "Learn about PDFCraft - your free, private, and powerful PDF toolkit. All processing happens in your browser."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Find answers to common questions about PDFCraft. Learn how to use our PDF tools effectively."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "PDFCraft privacy policy. Your files never leave your device - all processing happens locally in your browser."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Get in touch with PDFCraft team. We'd love to hear from you."
+    },
+    "keywords": {
+      "pdfTools": "PDF tools",
+      "mergePdf": "merge PDF",
+      "splitPdf": "split PDF",
+      "compressPdf": "compress PDF",
+      "convertPdf": "convert PDF",
+      "freePdfTools": "free PDF tools",
+      "onlinePdfEditor": "online PDF editor"
+    }
+  },
   "common": {
     "brand": "ZemPDF",
     "tagline": "Professional PDF Tools - Free & Private",
@@ -764,8 +799,9 @@
       "successMessage": "PDF posterized successfully! Click the download button to save your file."
     },
     "pdfMultiTool": {
-      "uploadLabel": "Upload PDF File",
-      "uploadDescription": "Drag and drop a PDF file here, or click to browse.",
+      "uploadLabel": "Upload PDF Files",
+      "uploadDescription": "Drag and drop PDF files here, or click to browse. You can upload multiple files.",
+      "addMoreFiles": "Add More PDF Files",
       "organize": "Organize",
       "delete": "Delete",
       "rotate": "Rotate",
@@ -775,7 +811,19 @@
       "deleteHint": "Click pages to mark them for deletion.",
       "rotateHint": "Click rotation buttons on pages, or rotate all:",
       "duplicateHint": "Click the duplicate button on pages to copy them.",
-      "reset": "Reset to Original",
+      "reset": "Reset",
+      "undo": "Undo",
+      "redo": "Redo",
+      "selectAll": "Select All",
+      "deselectAll": "Deselect",
+      "rotateLeft": "Left",
+      "rotateRight": "Right",
+      "exportPDF": "Export PDF",
+      "downloadSelected": "Download Selected",
+      "clearAll": "Clear All",
+      "addBlankPageTitle": "Add Blank Pages",
+      "numberOfPages": "Number of pages",
+      "insertPosition": "Insert at position",
       "processButton": "Apply Changes",
       "successMessage": "PDF processed successfully! Click the download button to save your file."
     },
