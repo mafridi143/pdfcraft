@@ -40,6 +40,11 @@ function configureLegacyWorker(pdfjsLib: PDFJSLegacyModule): void {
  * Used specifically for PDF to SVG vector conversion with SVGGraphics
  */
 export async function loadPdfjsLegacy(): Promise<PDFJSLegacyModule> {
+    // Only load on client-side
+    if (typeof window === 'undefined') {
+        throw new Error('Legacy PDF.js can only be loaded in browser environment');
+    }
+
     if (pdfjsLegacyInstance) {
         return pdfjsLegacyInstance;
     }
@@ -48,7 +53,7 @@ export async function loadPdfjsLegacy(): Promise<PDFJSLegacyModule> {
         return pdfjsLegacyLoadingPromise;
     }
 
-    pdfjsLegacyLoadingPromise = import('pdfjs-dist-legacy').then((module) => {
+    pdfjsLegacyLoadingPromise = import('pdfjs-dist-legacy/legacy/build/pdf.js').then((module) => {
         // Configure worker
         configureLegacyWorker(module);
         pdfjsLegacyInstance = module;
@@ -79,8 +84,9 @@ export async function loadSVGGraphics(): Promise<SVGGraphicsConstructor> {
     // First ensure the main library is loaded
     await loadPdfjsLegacy();
 
-    // Import SVGGraphics from the display module
-    const svgModule = await import('pdfjs-dist-legacy/lib/display/svg');
+    // Import SVGGraphics from the display module (legacy build)
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const svgModule = await import('pdfjs-dist-legacy/lib/display/svg') as any;
 
     if (!svgModule.SVGGraphics) {
         throw new Error('SVGGraphics class not found in legacy pdfjs-dist');
