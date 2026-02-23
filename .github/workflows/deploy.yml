@@ -41,7 +41,9 @@ jobs:
       - name: Generate sitemap
         run: node scripts/generate-sitemap.js
 
-      - name: Build
+      # Build the project
+      # Note: postbuild script auto-decompresses LibreOffice WASM .gz files
+      - name: Build with Next.js
         run: npm run build
         env:
           NODE_ENV: production

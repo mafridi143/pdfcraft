@@ -70,3 +70,7 @@ comparisons.txt
 
 # Temporary deployment files
 gh-pages-temp
+
+# LibreOffice WASM decompressed files (large, generated from .gz)
+public/libreoffice-wasm/soffice.wasm
+public/libreoffice-wasm/soffice.data
