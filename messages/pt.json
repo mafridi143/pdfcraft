@@ -221,7 +221,7 @@
         "languages": {
           "supported": {
             "question": "What languages are supported?",
-            "answer": "ZemPDF is available in 9 languages: English, Japanese, Korean, Spanish, French, German, Chinese, Portuguese, and Arabic (with RTL support)."
+            "answer": "ZemPDF is available in 11 languages: English, Japanese, Korean, Spanish, French, German, Chinese, Portuguese, Arabic, and Italian (with RTL support)."
           },
           "change": {
             "question": "How do I change the language?",
@@ -256,7 +256,7 @@
         },
         "accessible": {
           "title": "Accessible Everywhere",
-          "description": "Available in 9 languages and works on any device with a modern browser. No installation required."
+          "description": "Available in 11 languages and works on any device with a modern browser. No installation required."
         },
         "free": {
           "title": "Free Forever",
@@ -2248,7 +2248,7 @@
       "languages": {
         "supported": {
           "question": "Quais idiomas são suportados?",
-          "answer": "O ZemPDF está disponível em 9 idiomas: Inglês, Japonês, Coreano, Espanhol, Francês, Alemão, Chinês, Português e Árabe (com suporte para leitura da direita para a esquerda)."
+          "answer": "O ZemPDF está disponível em 11 idiomas: Inglês, Japonês, Coreano, Espanhol, Francês, Alemão, Chinês, Português e Árabe (com suporte para leitura da direita para a esquerda)."
         },
         "change": {
           "question": "Como posso mudar o idioma?",
@@ -2283,7 +2283,7 @@
       },
       "accessible": {
         "title": "Acessível em Qualquer Lugar",
-        "description": "Disponível em 9 idiomas e funciona em qualquer dispositivo com um navegador moderno. Nenhuma instalação necessária."
+        "description": "Disponível em 11 idiomas e funciona em qualquer dispositivo com um navegador moderno. Nenhuma instalação necessária."
       },
       "free": {
         "title": "Gratuito para Sempre",
