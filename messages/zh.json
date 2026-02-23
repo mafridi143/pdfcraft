@@ -1,7 +1,7 @@
 {
   "metadata": {
     "home": {
-      "title": "PDFCraft - 专业 PDF 工具",
+      "title": "ZemPDF - 专业 PDF 工具",
       "description": "免费、私密、基于浏览器。在线合并、编辑 PDF 文件，无需上传到服务器。"
     },
     "tools": {
@@ -10,19 +10,19 @@
     },
     "about": {
       "title": "关于我们",
-      "description": "了解 PDFCraft - 您免费、私密且强大的 PDF 工具箱。所有处理都在您的浏览器中进行。"
+      "description": "了解 ZemPDF - 您免费、私密且强大的 PDF 工具箱。所有处理都在您的浏览器中进行。"
     },
     "faq": {
       "title": "常见问题",
-      "description": "查找有关 PDFCraft 的常见问题解答。了解如何有效使用我们的 PDF 工具。"
+      "description": "查找有关 ZemPDF 的常见问题解答。了解如何有效使用我们的 PDF 工具。"
     },
     "privacy": {
       "title": "隐私政策",
-      "description": "PDFCraft 隐私政策。您的文件永远不会离开您的设备 - 所有处理都在本地浏览器中进行。"
+      "description": "ZemPDF 隐私政策。您的文件永远不会离开您的设备 - 所有处理都在本地浏览器中进行。"
     },
     "contact": {
       "title": "联系我们",
-      "description": "联系 PDFCraft 团队。我们很乐意听取您的意见。"
+      "description": "联系 ZemPDF 团队。我们很乐意听取您的意见。"
     },
     "keywords": {
       "pdfTools": "PDF 工具",
@@ -472,7 +472,7 @@
   "workflow": {
     "title": "PDF 工作流编辑器",
     "subtitle": "通过连接工具创建自定义 PDF 处理管道",
-    "metaTitle": "PDF 工作流编辑器 - PDFCraft",
+    "metaTitle": "PDF 工作流编辑器 - ZemPDF",
     "metaDescription": "通过可视化连接工具创建自定义 PDF 处理管道。构建、保存和重用您的工作流。",
     "toolbox": "工具箱",
     "dragToAdd": "拖拽工具添加到工作流",

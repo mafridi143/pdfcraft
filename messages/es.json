@@ -1,7 +1,7 @@
 {
   "metadata": {
     "home": {
-      "title": "PDFCraft - Herramientas PDF Profesionales",
+      "title": "ZemPDF - Herramientas PDF Profesionales",
       "description": "Gratis, privado y basado en navegador. Combina y edita archivos PDF en línea sin subirlos a servidores."
     },
     "tools": {
@@ -10,19 +10,19 @@
     },
     "about": {
       "title": "Acerca de Nosotros",
-      "description": "Conoce PDFCraft - tu kit de herramientas PDF gratuito, privado y potente. Todo el procesamiento ocurre en tu navegador."
+      "description": "Conoce ZemPDF - tu kit de herramientas PDF gratuito, privado y potente. Todo el procesamiento ocurre en tu navegador."
     },
     "faq": {
       "title": "Preguntas Frecuentes",
-      "description": "Encuentra respuestas a preguntas comunes sobre PDFCraft. Aprende a usar nuestras herramientas PDF de manera efectiva."
+      "description": "Encuentra respuestas a preguntas comunes sobre ZemPDF. Aprende a usar nuestras herramientas PDF de manera efectiva."
     },
     "privacy": {
       "title": "Política de Privacidad",
-      "description": "Política de privacidad de PDFCraft. Tus archivos nunca salen de tu dispositivo - todo el procesamiento ocurre localmente en tu navegador."
+      "description": "Política de privacidad de ZemPDF. Tus archivos nunca salen de tu dispositivo - todo el procesamiento ocurre localmente en tu navegador."
     },
     "contact": {
       "title": "Contáctanos",
-      "description": "Ponte en contacto con el equipo de PDFCraft. Nos encantaría saber de ti."
+      "description": "Ponte en contacto con el equipo de ZemPDF. Nos encantaría saber de ti."
     },
     "keywords": {
       "pdfTools": "herramientas PDF",
@@ -459,7 +459,7 @@
   "workflow": {
     "title": "Editor de Flujo de Trabajo PDF",
     "subtitle": "Cree pipelines de procesamiento PDF personalizados conectando herramientas",
-    "metaTitle": "Editor de Flujo de Trabajo PDF - PDFCraft",
+    "metaTitle": "Editor de Flujo de Trabajo PDF - ZemPDF",
     "metaDescription": "Cree pipelines de procesamiento PDF personalizados conectando herramientas visualmente. Construya, guarde y reutilice sus flujos de trabajo.",
     "toolbox": "Caja de Herramientas",
     "dragToAdd": "Arrastre herramientas para agregar al flujo de trabajo",

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "home": {
-      "title": "PDFCraft - 專業 PDF 工具",
+      "title": "ZemPDF - 專業 PDF 工具",
       "description": "免費、私密、基於瀏覽器。線上合併、編輯 PDF 檔案，無需上傳到伺服器。"
     },
     "tools": {
@@ -10,19 +10,19 @@
     },
     "about": {
       "title": "關於我們",
-      "description": "瞭解 PDFCraft - 您免費、私密且強大的 PDF 工具箱。所有處理都在您的瀏覽器中進行。"
+      "description": "瞭解 ZemPDF - 您免費、私密且強大的 PDF 工具箱。所有處理都在您的瀏覽器中進行。"
     },
     "faq": {
       "title": "常見問題",
-      "description": "查找有關 PDFCraft 的常見問題解答。瞭解如何有效使用我們的 PDF 工具。"
+      "description": "查找有關 ZemPDF 的常見問題解答。瞭解如何有效使用我們的 PDF 工具。"
     },
     "privacy": {
       "title": "隱私政策",
-      "description": "PDFCraft 隱私政策。您的檔案永遠不會離開您的裝置 - 所有處理都在本地瀏覽器中進行。"
+      "description": "ZemPDF 隱私政策。您的檔案永遠不會離開您的裝置 - 所有處理都在本地瀏覽器中進行。"
     },
     "contact": {
       "title": "聯絡我們",
-      "description": "聯繫 PDFCraft 團隊。我們很樂意聽取您的意見。"
+      "description": "聯繫 ZemPDF 團隊。我們很樂意聽取您的意見。"
     },
     "keywords": {
       "pdfTools": "PDF 工具",
@@ -472,7 +472,7 @@
   "workflow": {
     "title": "PDF 工作流程編輯器",
     "subtitle": "透過連接工具建立自訂 PDF 處理管道",
-    "metaTitle": "PDF 工作流程編輯器 - PDFCraft",
+    "metaTitle": "PDF 工作流程編輯器 - ZemPDF",
     "metaDescription": "透過視覺化連接工具建立自訂 PDF 處理管道。建構、儲存和重複使用您的工作流程。",
     "toolbox": "工具箱",
     "dragToAdd": "拖曳工具新增到工作流程",

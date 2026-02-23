@@ -18,9 +18,14 @@ const { background } = config.colors;
 console.log(`📝 Replacing branding: ${oldName} → ${newName}`);
 
 // Find and replace in source files
-const srcDir = path.join(__dirname, '../src');
+const directoriesToProcess = [
+    path.join(__dirname, '../src'),
+    path.join(__dirname, '../messages'),
+];
 
 function replaceInFiles(dir) {
+    if (!fs.existsSync(dir)) return;
+
     const files = fs.readdirSync(dir);
 
     files.forEach(file => {
@@ -29,10 +34,37 @@ function replaceInFiles(dir) {
 
         if (stat.isDirectory()) {
             replaceInFiles(filePath);
-        } else if (/\.(ts|tsx|js|jsx)$/.test(file)) {
+        } else if (/\.(ts|tsx|js|jsx|json)$/.test(file)) {
             let content = fs.readFileSync(filePath, 'utf-8');
-            if (content.includes(oldName)) {
-                content = content.replace(new RegExp(oldName, 'g'), newName);
+            let updated = false;
+
+            // Replace standard name (PDFCraft -> ZemPDF)
+            if (content.includes(config.branding.oldName)) {
+                content = content.replace(new RegExp(config.branding.oldName, 'g'), config.branding.newName);
+                updated = true;
+            }
+
+            // Replace lowercase name (pdfcraft -> zempdf)
+            const oldNameLower = config.branding.oldName.toLowerCase();
+            const newNameLower = config.branding.newName.toLowerCase();
+            if (content.includes(oldNameLower)) {
+                content = content.replace(new RegExp(oldNameLower, 'g'), newNameLower);
+                updated = true;
+            }
+
+            // Replace github org (PDFCraftTool -> mafridi143)
+            if (config.branding.oldGithub && content.includes(config.branding.oldGithub)) {
+                content = content.replace(new RegExp(config.branding.oldGithub, 'g'), config.branding.newGithub);
+                updated = true;
+            }
+
+            // Replace URL (pdfcraft.com -> zempdf.com)
+            if (config.branding.oldUrl && content.includes(config.branding.oldUrl)) {
+                content = content.replace(new RegExp(config.branding.oldUrl, 'g'), config.branding.newUrl);
+                updated = true;
+            }
+
+            if (updated) {
                 fs.writeFileSync(filePath, content, 'utf-8');
                 console.log(`  ✓ Updated: ${path.relative(process.cwd(), filePath)}`);
             }
@@ -40,7 +72,7 @@ function replaceInFiles(dir) {
     });
 }
 
-replaceInFiles(srcDir);
+directoriesToProcess.forEach(dir => replaceInFiles(dir));
 
 console.log('\n🎨 Updating background color in globals.css');
 const globalsPath = path.join(__dirname, '../src/app/globals.css');

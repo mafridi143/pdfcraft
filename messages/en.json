@@ -1,7 +1,7 @@
 {
   "metadata": {
     "home": {
-      "title": "PDFCraft - Professional PDF Tools",
+      "title": "ZemPDF - Professional PDF Tools",
       "description": "Free, Private & Browser-Based. Merge, edit, and edit PDF files online without uploading to servers."
     },
     "tools": {
@@ -10,19 +10,19 @@
     },
     "about": {
       "title": "About",
-      "description": "Learn about PDFCraft - your free, private, and powerful PDF toolkit. All processing happens in your browser."
+      "description": "Learn about ZemPDF - your free, private, and powerful PDF toolkit. All processing happens in your browser."
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Find answers to common questions about PDFCraft. Learn how to use our PDF tools effectively."
+      "description": "Find answers to common questions about ZemPDF. Learn how to use our PDF tools effectively."
     },
     "privacy": {
       "title": "Privacy Policy",
-      "description": "PDFCraft privacy policy. Your files never leave your device - all processing happens locally in your browser."
+      "description": "ZemPDF privacy policy. Your files never leave your device - all processing happens locally in your browser."
     },
     "contact": {
       "title": "Contact Us",
-      "description": "Get in touch with PDFCraft team. We'd love to hear from you."
+      "description": "Get in touch with ZemPDF team. We'd love to hear from you."
     },
     "keywords": {
       "pdfTools": "PDF tools",
@@ -482,7 +482,7 @@
   "workflow": {
     "title": "PDF Workflow Builder",
     "subtitle": "Create custom PDF processing pipelines by connecting tools",
-    "metaTitle": "PDF Workflow Builder - PDFCraft",
+    "metaTitle": "PDF Workflow Builder - ZemPDF",
     "metaDescription": "Create custom PDF processing pipelines by visually connecting tools. Build, save, and reuse your workflows.",
     "toolbox": "Tool Box",
     "dragToAdd": "Drag tools to add to workflow",

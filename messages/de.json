@@ -1,7 +1,7 @@
 {
   "metadata": {
     "home": {
-      "title": "PDFCraft - Professionelle PDF-Werkzeuge",
+      "title": "ZemPDF - Professionelle PDF-Werkzeuge",
       "description": "Kostenlos, privat und browserbasiert. PDF-Dateien online zusammenführen und bearbeiten, ohne sie auf Server hochzuladen."
     },
     "tools": {
@@ -10,19 +10,19 @@
     },
     "about": {
       "title": "Über uns",
-      "description": "Erfahren Sie mehr über PDFCraft - Ihr kostenloses, privates und leistungsstarkes PDF-Toolkit. Alle Verarbeitung erfolgt in Ihrem Browser."
+      "description": "Erfahren Sie mehr über ZemPDF - Ihr kostenloses, privates und leistungsstarkes PDF-Toolkit. Alle Verarbeitung erfolgt in Ihrem Browser."
     },
     "faq": {
       "title": "Häufig gestellte Fragen",
-      "description": "Finden Sie Antworten auf häufige Fragen zu PDFCraft. Erfahren Sie, wie Sie unsere PDF-Werkzeuge effektiv nutzen können."
+      "description": "Finden Sie Antworten auf häufige Fragen zu ZemPDF. Erfahren Sie, wie Sie unsere PDF-Werkzeuge effektiv nutzen können."
     },
     "privacy": {
       "title": "Datenschutzrichtlinie",
-      "description": "PDFCraft Datenschutzrichtlinie. Ihre Dateien verlassen Ihr Gerät nie - alle Verarbeitung erfolgt lokal in Ihrem Browser."
+      "description": "ZemPDF Datenschutzrichtlinie. Ihre Dateien verlassen Ihr Gerät nie - alle Verarbeitung erfolgt lokal in Ihrem Browser."
     },
     "contact": {
       "title": "Kontakt",
-      "description": "Kontaktieren Sie das PDFCraft-Team. Wir freuen uns auf Ihre Nachricht."
+      "description": "Kontaktieren Sie das ZemPDF-Team. Wir freuen uns auf Ihre Nachricht."
     },
     "keywords": {
       "pdfTools": "PDF-Werkzeuge",
@@ -459,7 +459,7 @@
   "workflow": {
     "title": "PDF-Workflow-Editor",
     "subtitle": "Erstellen Sie individuelle PDF-Verarbeitungspipelines durch Verbinden von Tools",
-    "metaTitle": "PDF-Workflow-Editor - PDFCraft",
+    "metaTitle": "PDF-Workflow-Editor - ZemPDF",
     "metaDescription": "Erstellen Sie individuelle PDF-Verarbeitungspipelines durch visuelles Verbinden von Tools. Erstellen, speichern und wiederverwenden Sie Ihre Workflows.",
     "toolbox": "Werkzeugkasten",
     "dragToAdd": "Tools hierher ziehen, um sie zum Workflow hinzuzufügen",
