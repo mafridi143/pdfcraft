@@ -143,6 +143,7 @@ export class LibreOfficeConverter {
                 sofficeWorkerJs: `${this.basePath}soffice.worker.js?v=${ASSET_VERSION}`,
                 browserWorkerJs: `${this.basePath}browser.worker.global.js?v=${ASSET_VERSION}`,
                 verbose: false,
+                // @ts-expect-error - 'fonts' is supported by the implementation but missing from the types
                 fonts: [
                     { filename: 'NotoSansSC-Regular.ttf', data: fontArrayBuffer }
                 ],
