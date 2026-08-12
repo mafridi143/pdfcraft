@@ -78,8 +78,8 @@ console.log('\n🎨 Updating background color in globals.css');
 const globalsPath = path.join(__dirname, '../src/app/globals.css');
 let globalsContent = fs.readFileSync(globalsPath, 'utf-8');
 globalsContent = globalsContent.replace(
-    /--color-background:\s*\d+\s+\d+%\s+\d+%;/g,
-    `--color-background: ${background};`
+    /(:root\s*\{[^}]*?--color-background:\s*)\d+\s+\d+%\s+\d+%;/,
+    `$1${background};`
 );
 fs.writeFileSync(globalsPath, globalsContent, 'utf-8');
 
