@@ -9,6 +9,9 @@ export const metadata: Metadata = {
     shortcut: '/favicon.svg',
     apple: '/favicon.svg',
   },
+  other: {
+    'google-adsense-account': 'ca-pub-8992839288712814'
+  }
 };
 
 // Root layout - provides the basic HTML structure
