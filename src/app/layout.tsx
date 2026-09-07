@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import '@/app/globals.css';
+import { CookieBanner } from '@/components/ui/CookieBanner';
 
 export const metadata: Metadata = {
   title: 'ZemPDF - Professional PDF Tools',
@@ -42,6 +43,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
         {children}
+        <CookieBanner />
       </body>
     </html>
   );
